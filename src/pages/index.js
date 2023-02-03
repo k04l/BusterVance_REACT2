@@ -1,5 +1,5 @@
 export {default as HomePage} from "./HomePage"
 export {default as AboutPage} from "./AboutPage"
-export {default as CampsitesDirectoryPage} from "./CampsitesDirectoryPage"
-export {default as CampsiteDetailPage} from "./CampsiteDetailPage"
+export {default as BuildItemDetailPage} from "./BuildItemDetailPage"
+export {default as BuildItemsDirectoryPage} from "./BuildItemsDirectoryPage"
 export {default as ContactPage} from "./ContactPage"

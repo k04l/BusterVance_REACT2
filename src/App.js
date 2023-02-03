@@ -7,19 +7,20 @@ import { Routes, Route } from 'react-router-dom';
 // import CampsiteDetailPage from './pages/CampsiteDetailPage';
 // import AboutPage from './pages/AboutPage';
 // import CampsitesDirectoryPage from './pages/CampsiteDirectoryPage';
-import {HomePage, ContactPage, CampsiteDetailPage, AboutPage, CampsitesDirectoryPage} from './pages';
+import {HomePage, ContactPage, BuildItemDetailPage, AboutPage, BuildItemsDirectoryPage} from './pages';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchCampsites } from './features/campsites/campsitesSlice';
-import { fetchPartners } from './features/partners/partnerSlice';
+// import { fetchPartners } from './features/partners/partnerSlice';
 import { fetchPromotions } from './features/promotions/promotionsSlice';
+import { fetchBuildItems } from './features/buildItems/buildItemsSlice';
 
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchCampsites());
-    dispatch(fetchPartners());
     dispatch(fetchPromotions());
+    dispatch(fetchBuildItems());
   }, [dispatch]);
   return (
     <div className="App">
@@ -27,8 +28,8 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='contact' element={<ContactPage />} />
-        <Route path='directory' element={<CampsitesDirectoryPage />} />
-        <Route path='directory/:campsiteId' element={<CampsiteDetailPage />} />
+        <Route path='directory' element={<BuildItemsDirectoryPage />} />
+        <Route path='directory/:builditemId' element={<BuildItemDetailPage />} />
         <Route path='about' element={<AboutPage />} />
       </Routes>
       <Footer />

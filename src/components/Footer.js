@@ -13,10 +13,10 @@ const Footer = () => {
                                 <Link to='/'>Home</Link>
                             </li>
                             <li>
-                                <Link to='/directory'>Directory</Link>
+                                <Link to='/'>Gallery</Link>
                             </li>
                             <li>
-                                <Link to='/about'>About</Link>
+                                <Link to='/Build'>The Build</Link>
                             </li>
                             <li>
                                 <Link to='/contact'>Contact</Link>
@@ -51,17 +51,17 @@ const Footer = () => {
                     <Col sm='4' className='text-center'><a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+12065551234'
+                            href='tel:+19162372342'
                         >
-                            <i className='fa fa-phone' /> 1-206-555-1234
+                            <i className='fa fa-phone' /> 1-916-237-2342
                         </a>
                         <br />
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:notreal@notreal.co'
+                            href='mailto:cmharmon89@gmail.com'
                         >
-                            <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                            <i className='fa fa-envelope-o' /> cmharmon89@gmail.com
                         </a></Col>
                 </Row>
             </Container>

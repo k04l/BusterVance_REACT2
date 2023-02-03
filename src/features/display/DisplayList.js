@@ -3,16 +3,18 @@ import { Col, Row } from 'reactstrap';
 import AnimatedDisplayCard from './AnimatedDisplayCard';
 import { selectFeaturedCampsite } from '../campsites/campsitesSlice';
 import { selectFeaturedPromotion } from '../promotions/promotionsSlice';
-import { selectFeaturedPartner } from '../partners/partnerSlice';
+// import { selectFeaturedPartner } from '../partners/partnerSlice';
 import { useSelector } from 'react-redux';
+import { selectFeaturedBuildItem } from '../buildItems/buildItemsSlice';
 import Error from '../../components/Error';
 import Loading from '../../components/Loading';
 
 const DisplayList = () => {
     const items = useSelector((state) => [
         selectFeaturedCampsite(state),
+        selectFeaturedBuildItem(state),
         selectFeaturedPromotion(state),
-        selectFeaturedPartner(state)
+        // selectFeaturedPartner(state)
     ]);
     console.log('display items:', items);
 
