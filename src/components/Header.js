@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Navbar, NavbarBrand, Collapse, NavbarToggler, Nav, NavItem } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import NucampLogo from '../app/assets/img/logo.png';
-import UserLoginForm from '../features/user/UserLoginForm';
+import SubscribeForm from '../features/user/SubscribeForm';
 
 
 
@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar dark color='primary' sticky='top' expand='md'>
         <NavbarBrand className='ms-5' href='/'>
             <img className='float-start' src={NucampLogo} alt='nucamp logo' />
-            <h1 className='mt-1'>NuCamp</h1>
+            <h1 className='mt-1'>Buster Vance</h1>
         </NavbarBrand>
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
         <Collapse isOpen={menuOpen} navbar>
@@ -23,17 +23,17 @@ const Header = () => {
                 <Nav className='ms-auto' navbar>
                     <NavItem>
                         <NavLink className='nav-link' to='/'>
-                            <i className='fa fa-home fa-lg' /> Home
+                            <i className='fa fa-bus fa-lg' /> Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/directory'>
-                            <i className='fa fa-list fa-lg' /> Directory
+                        <NavLink className='nav-link' to='/'>
+                            <i className='fa fa-image fa-lg' /> Gallery
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/about'>
-                            <i className='fa fa-info fa-lg' /> About
+                        <NavLink className='nav-link' to='/build'>
+                            <i className='fa fa-gear fa-lg' /> The Build
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -43,7 +43,7 @@ const Header = () => {
                     </NavItem>
                 </Nav>
             </Nav>
-            <UserLoginForm />
+            <SubscribeForm />
         </Collapse>
     </Navbar>
     );
