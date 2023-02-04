@@ -14,7 +14,7 @@ export const BUILDITEMS = [
         image: StarlinkImg,
         featured: false,
         description:
-            'Now that SpaceX has launched their <a href="https://www.starlink.com/rv">Starlink</a> internet service Van Lifers and Skoolie vagabons alike can stay connected wherever they go. Combined with a remote job, the right rig can take you wherever you want to go, for however long you want to be there.'
+            'Now that SpaceX has launched their Starlink internet service Van Lifers and Skoolie vagabons alike can stay connected wherever they go. Combined with a remote job, the right rig can take you wherever you want to go, for however long you want to be there.'
     },
     {
         id: 1,

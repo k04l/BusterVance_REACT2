@@ -1,0 +1,162 @@
+{
+  "campsites": [
+    {
+      "id": 0,
+      "name": "React Lake Campground",
+      "image": "images/react-lake.jpg",
+      "elevation": 1233,
+      "featured": false,
+      "description": "Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers."
+    },
+    {
+      "id": 1,
+      "name": "Chrome River Campground",
+      "image": "images/chrome-river.jpg",
+      "elevation": 877,
+      "featured": false,
+      "description": "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River."
+    },
+    {
+      "id": 2,
+      "name": "Breadcrumb Trail Campground",
+      "image": "images/breadcrumb-trail.jpg",
+      "elevation": 2901,
+      "featured": false,
+      "description": "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground."
+    },
+    {
+      "id": 3,
+      "name": "Redux Woods Campground",
+      "image": "images/redux-woods.jpg",
+      "elevation": 42,
+      "featured": true,
+      "description": "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+    }
+  ],
+  "galleryimages": [
+    {
+      "id": 0,
+      "image": "images/atLaurens.jpg"
+    },
+    {
+      "id": 1,
+      "image": "images/backOfBus.jpg"
+    },
+    {
+      "id": 2,
+      "image": "images/bareBed.jpg"
+    },
+    {
+      "id": 3,
+      "image": "images/bedFrame.jpg"
+    },
+    {
+      "id": 4,
+      "image": "images/bedFrame2.jpg"
+    },
+    {
+      "id": 5,
+      "image": "images/chalboardMountains.jpg"
+    },
+    {
+      "id": 6,
+      "image": "images/coupleOfWeirdos.jpg"
+    },
+    {
+      "id": 7,
+      "image": "images/driving.jpg"
+    },
+    {
+      "id": 8,
+      "image": "images/floatingBedFrame.jpg"
+    },
+    {
+      "id": 9,
+      "image": "images/GabUpTop.jpg"
+    },
+    {
+      "id": 10,
+      "image": "images/garage.jpg"
+    },
+    {
+      "id": 11,
+      "image": "images/mechanicGrinInMirror.jpg"
+    },
+    {
+      "id": 12,
+      "image": "images/moonsTrees.jpg"
+    },
+    {
+      "id": 13,
+      "image": "images/mountainsOnYellow.jpg"
+    },
+    {
+      "id": 14,
+      "image": "images/originalAd.jpg"
+    },
+    {
+      "id": 15,
+      "image": "images/paintedTrees.jpg"
+    },
+    {
+      "id": 16,
+      "image": "images/painting.jpg"
+    },
+    {
+      "id": 17,
+      "image": "images/paintingBackofBuster.jpg"
+    },
+    {
+      "id": 18,
+      "image": "images/paintingBuster.jpg"
+    },
+    {
+      "id": 19,
+      "image": "images/sweepingInside.jpg"
+    }
+
+  ],
+
+  "builditems": [
+    {
+        "id": 0,
+        "name": "Starlink",
+        "image": "images/Starlink-RV.jpg",
+        "featured": false,
+        "description":
+            "Now that SpaceX has launched their Starlink internet service Van Lifers and Skoolie vagabons alike can stay connected wherever they go. Combined with a remote job, the right rig can take you wherever you want to go, for however long you want to be there."
+    },
+    {
+        "id": 1,
+        "name": "High Efficiency Heat Pump",
+        "image": "images/PKA-A24KA.jpg",
+        "featured": false,
+        "description":
+            "The variable speed scroll compressors in these kinds of heat pumps are extremely efficient. This replaces an older inefficient system, increasing capacity while taking up less space inside the cabin."
+    },
+  {
+      "id": 2,
+      "name": "Recirculating Shower",
+      "image": "images/recirculatingShower.jpg",
+      "featured": false,
+      "description":
+          "The Showerloop is a design I found on instructables.com that uses a small ~7-8 gallon tank and a filter bank to clean and recirculate the water. This means that you could take 20 minute long showers every day while camping in a desert."
+  },
+  {
+      "id": 3,
+      "name": "Bluetti - Total Energy Solution",
+      "image": "images/AC500_B300S.jpg",
+      "featured": true,
+      "description":
+          "The Bluetti AC500+B300S system is everything you need to store and manage 3,000 watt hours and invert up to 5000 watts into whatever voltage you need. The B300S modular battery weighs 84 lbs is equivalent to a 12v, 250 amp-hour, LiFePO4 battery bank. If I need more power down the road I can simply get another B300S, all the way up to an 18 kWh system which is way more than Buster will ever need. The AC500 has 5 x 120V outlets from 20A up to 50A, 6 x USB Ports, 1 x 12V/30A and 1 x 24V/10A. I can via an AC charging cable (essentially shore power), or via up to 3,000W of Solar Panels."
+  },
+  {
+      "id": 4,
+      "name": "Live Edge Kitchen",
+      "image": "images/liveEdgeKitchen.jpg",
+      "featured": false,
+      "description":
+          "Because why not?"
+  }
+]
+}
